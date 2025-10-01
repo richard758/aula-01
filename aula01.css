@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 header {
     background-color: black;
     display: flex;
@@ -31,4 +35,116 @@ header {
     background-attachment: fixed;
     background-size: cover;
     padding: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+flex-direction: column;
+}
+
+.section-01 p {
+    color: aliceblue;
+    font-size: 35px;
+}
+
+.section-01 button { 
+    color: black;  
+    border: none; 
+font-size: 20px;
+padding: 12px;
+border-radius: 30px;
+}
+
+.section-02 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 15px;
+    padding: 100px;
+}
+
+.section-02 p {
+    font-size: 25px;
+    font-family: ;/*família de font*/
+    margin-left: 30px; /*espaçamento lateral esquerda*/;
+    font-weight: 700px;/*peso da fonte*/
+    text-align: center;/*alinhamento do texto*/
+}
+
+.section-02 h2 {
+    font-size: 80px;
+}
+
+.section-03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+
+.img-01 {
+    width: 335px;
+    height: 300px;
+}
+
+.img-02 {
+    width: 335px;
+    height: 300px;
+}
+
+.img-03 {
+    width: 377px;
+    height: 300px;
+}
+
+.img-04 {
+    width: 363px;
+    height: 300px;
+}
+
+.section-04 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.section-04 button {
+    background-color: rgb(75, 69, 69);
+    color: black;  
+    border: none; 
+font-size: 20px;
+padding: 12px;
+border-radius: 30px;
+}
+
+.section-05 {
+    background-image: url(imagens/27101405-lado-visao-monocromatico-imagem-do-uma-pequeno-luxo-presente-caixa-com-uma-azul-arco-em-uma-sombrio-azul-fundo-foto.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+flex-direction: column;
+}
+
+.section-05 p {
+    color: white;
+font-size: 25px;
+}
+
+footer {
+    background-color: black;
+    padding: 50px;
+    color: rgb(252, 252, 252);
+
+    text-align: center;
+    font-size: 25px;
 }
