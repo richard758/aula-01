@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.div-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    color:  rgb(255, 255, 255);
+}
+
+.div-icom {
+    font-size: 20px;
+    background-color: rgb(255, 223, 223);
+}
+
+.div-list {
+    display: flex;
+    gap: 50px;
+}
+
+.div-list a {
+    font-size: 25px;
+    color:  rgb(255, 255, 255);
+}
+
+.section-06 {
+    background-image: url(imagens/big-diamond-on-a-circular-display-stand-black-background-and-reflective-surface-image-of-the-concept-of-luxury-jewelry-expensive-in-the-product-show-3d-rendering-free-photo.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.section-06 p {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.section-06 button {
+    color: black;
+    border: 10px;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 30px;
+}
+
+.section-07 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 100px;
+}
+
+.section-07 p {
+    font-size: 33px;
+}
+

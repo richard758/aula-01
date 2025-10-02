@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: black;
     display: flex;
@@ -39,7 +40,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-flex-direction: column;
+    flex-direction: column;
 }
 
 .section-01 p {
@@ -47,17 +48,17 @@ flex-direction: column;
     font-size: 35px;
 }
 
-.section-01 button { 
-    color: black;  
-    border: none; 
-font-size: 20px;
-padding: 12px;
-border-radius: 30px;
+.section-01 button {
+    color: black;
+    border: 10px;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 30px;
 }
 
 .section-02 {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 15px;
     padding: 100px;
@@ -65,10 +66,15 @@ border-radius: 30px;
 
 .section-02 p {
     font-size: 25px;
-    font-family: ;/*família de font*/
-    margin-left: 30px; /*espaçamento lateral esquerda*/;
-    font-weight: 700px;/*peso da fonte*/
-    text-align: center;/*alinhamento do texto*/
+    font-family: ;
+    /*família de font*/
+    margin-left: 30px;
+    /*espaçamento lateral esquerda*/
+    ;
+    font-weight: 700px;
+    /*peso da fonte*/
+    text-align: center;
+    /*alinhamento do texto*/
 }
 
 .section-02 h2 {
@@ -115,15 +121,15 @@ border-radius: 30px;
 
 .section-04 button {
     background-color: rgb(75, 69, 69);
-    color: black;  
-    border: none; 
-font-size: 20px;
-padding: 12px;
-border-radius: 30px;
+    color: black;
+    border: none;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 30px;
 }
 
 .section-05 {
-    background-image: url(imagens/27101405-lado-visao-monocromatico-imagem-do-uma-pequeno-luxo-presente-caixa-com-uma-azul-arco-em-uma-sombrio-azul-fundo-foto.jpg);
+    background-image: url(imagens/199735148-a-black-gift-box-with-ribbon-and-yellow-price-tag-puts-on-black-background-black-friday-concept.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -132,12 +138,12 @@ border-radius: 30px;
     justify-content: center;
     align-items: center;
     text-align: center;
-flex-direction: column;
+    flex-direction: column;
 }
 
 .section-05 p {
-    color: white;
-font-size: 25px;
+    color: rgb(253, 253, 253);
+    font-size: 25px;
 }
 
 footer {
