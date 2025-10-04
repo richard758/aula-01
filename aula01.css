@@ -67,14 +67,9 @@ header {
 .section-02 p {
     font-size: 25px;
     font-family: ;
-    /*família de font*/
     margin-left: 30px;
-    /*espaçamento lateral esquerda*/
-    ;
     font-weight: 700px;
-    /*peso da fonte*/
     text-align: center;
-    /*alinhamento do texto*/
 }
 
 .section-02 h2 {

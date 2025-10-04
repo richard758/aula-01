@@ -69,3 +69,71 @@ header {
     font-size: 33px;
 }
 
+.section-08 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding: 100px;   
+    font-size: 20px;
+}
+
+.section-09 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-09 button {
+    background-color: rgb(62, 66, 65);
+    color: black;
+    border: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.section-10 { 
+     display: flex;
+    justify-content: center;
+   
+}
+
+.section-10 img {
+    width: 450px;
+    height: 450px;
+}
+
+.section-11 {
+    display: flex;
+    justify-content: center;
+}
+
+.section-11 h5 {
+    font-size: 30px;
+}
+
+.section-12 {
+    background-image: url(imagens/populaire-luxe-merken-vinnytsia-oekraïne-mei-gucci-chanel-hermes-dior-louis-vuitton-rolex-tiffany-prada-versace-armani-valentino-220333370.webp);
+    background-position: center;
+    background-attachment: local;
+    background-size: cover;
+    padding: 400px;
+}
+
+.section-13 {
+    background-image: url(imagens/joias-de-luxo-1200x900\ \(1\).jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
