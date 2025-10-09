@@ -112,6 +112,7 @@ header {
     text-align: center;
     flex-direction: column;
     font-size: 25px;
+    margin: 50px;
 }
 
 .section-04 button {
